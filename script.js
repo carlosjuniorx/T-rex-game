@@ -80,5 +80,5 @@ const createCactus = ()=>{
 }
 createCactus()
 
-document.addEventListener('keyup', handleKeyUp)
+document.addEventListener('keydown', handleKeyUp)
 document.addEventListener('touchstart', handleKeyUp)
